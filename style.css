@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+}
+
+.header{
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.quote-container {
+  background: #E5E7EB;  
+}
+
+.quote-1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
