@@ -13,7 +13,6 @@ button {
 }
 
 .landing-container,
-.quote-container,
 .signup-area {
     display:flex;
     flex:1;
@@ -112,7 +111,30 @@ button {
     margin-bottom: 8px;
 }
 
+.quote-section {
+    display: flex;
+    min-height: 430px;
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB;  
+}
 
+.quote-1 {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+}
+
+.quote-2 {
+    display: flex;
+    font-weight: bolder;
+    justify-content: flex-end;
+    font-size: 24px;
+}
 
 
 ul {
@@ -129,17 +151,6 @@ a{
 .header{
     font-size: 24px;
     color: #f9faf8;
-}
-
-
-.quote-container {
-  background: #E5E7EB;  
-}
-
-.quote-1 {
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
 }
 
 .footer {
